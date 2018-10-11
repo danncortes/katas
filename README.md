@@ -1,7 +1,5 @@
 # etereo-js-katas
 
-Repo for JS coding katas challenge.
-
 Se pide implementar las siguientes funciones (katas) siguiendo los siguientes requisitos para cada una de ellas.
 
 El proyecto incluye los tests unitarios que estas implementaciones deben cumplir.
