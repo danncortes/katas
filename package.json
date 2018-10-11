@@ -16,6 +16,9 @@
   "bugs": {
     "url": "https://gitlab.com/etereo/etereo-js-katas/issues"
   },
+  "engines": {
+    "node": ">= 8.9.4"
+  },
   "homepage": "https://gitlab.com/etereo/etereo-js-katas#README",
   "devDependencies": {
     "babel-core": "^6.26.3",
