@@ -14,7 +14,7 @@ Es necesario disponer de node >= 8.9.4 para ejecutar correctamente el proyecto.
 
 Ejecutar `make install` para instalar las dependencias del proyecto.
 
-Ejecutar `make test` para ejecutar los test unitarios que validen las funciones implementadas.
+Ejecutar `make test` para correr los test unitarios que validen las funciones implementadas.
 
 ### KATA 1
 
