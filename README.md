@@ -76,6 +76,22 @@ accessor('p1.p2') // ---> returns 'value'
 accessor('p3.p2.p5') // ---> returns null
 ```
 
+### Kata 3
+
+El cuadrado.
+
+Los divisores de 42 son: `1, 2, 3, 6, 7, 14, 21, 42`. Los cuadrados respectivos de estos divisores son: `1, 4, 9, 36, 49, 196, 441, 1764`. La suma de los cuadrados de estos divisores es: `2500`. Que puede expresarse como `50 * 50`, un cuadrado!
+
+Se pide implementar una función que reciba dos parametros: n y m, siendo `m >= n >= 1` y halle todos los números entre `m` y `n` que cuya suma de sus divisores al cuadrado formen un cuadrado.
+
+La función debe devolver un array con todos los números en ese rango formados por pares de valores. Cada par de valores se compondra de: número que cumple la condición en primer lugar, y la suma de los divisores al cuadrado en la segunda.
+
+Ejemplos:
+
+```javascript=
+    squareDividers(1, 250) // ---> returns [ [1, 1], [42, 2500], [246, 84100] ]
+
+```
 
 ## Debugging
 
