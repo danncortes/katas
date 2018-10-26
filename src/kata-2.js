@@ -1,9 +1,8 @@
 export function kata2 (obj, def, path) {
   function verify(path){
-    let myObjName = 'argObj';
     //const argObj = {...obj}; <--- Así no me dejo correr tests :(
-    const argObj = JSON.parse(JSON.stringify(obj));
-    const data = eval(`${myObjName}.${path}`);
+    const argObj = obj;
+    const data = eval(`argObj.${path}`);
     if(data){
       return data
     }else{
